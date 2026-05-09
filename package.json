@@ -1,0 +1,48 @@
+{
+  "name": "siliconsignature-ts",
+  "version": "1.0.0",
+  "description": "SiliconSignature Core Library - Pure TypeScript implementation of LSB steganography watermarking with Reed-Solomon error correction",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "watermark",
+    "steganography",
+    "image-authentication",
+    "reed-solomon",
+    "cryptographic-signature",
+    "proof-of-work",
+    "asic",
+    "lsb",
+    "image-verification"
+  ],
+  "author": "SiliconSignature Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siliconsignature/siliconsignature-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siliconsignature/siliconsignature-ts/issues"
+  },
+  "homepage": "https://github.com/siliconsignature/siliconsignature-ts#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^5.9.3"
+  }
+}
