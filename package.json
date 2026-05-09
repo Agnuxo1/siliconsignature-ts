@@ -1,0 +1,48 @@
+{
+  "name": "@agnuxo1/siliconsignature",
+  "version": "1.0.0",
+  "description": "ASIC-bound image watermarking with Reed-Solomon error correction — Browser & Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "dev": "tsc --watch",
+    "test": "node test/test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "watermark",
+    "asic",
+    "image-authentication",
+    "forensics",
+    "cryptography",
+    "p2pclaw",
+    "siliconsignature"
+  ],
+  "author": "Francisco Angulo de Lafuente <contact@p2pclaw.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Agnuxo1/siliconsignature-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/Agnuxo1/siliconsignature-ts/issues"
+  },
+  "homepage": "https://silicon.p2pclaw.com",
+  "devDependencies": {
+    "typescript": "^5.3",
+    "rollup": "^4.0",
+    "@rollup/plugin-typescript": "^11.0"
+  }
+}
